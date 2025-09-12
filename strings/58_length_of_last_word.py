@@ -9,4 +9,4 @@ def lengthOfLastWord(s: str) -> int:
 print(lengthOfLastWord("Hello World"))
 
 # Time complexity: O(n)
-# Space complexity: O(1)
+# Space complexity: O(n) because strip creates a new string

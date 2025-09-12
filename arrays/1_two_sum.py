@@ -19,6 +19,6 @@ def twoSum(nums: List[int], target: int) -> List[int]:
 print(twoSum([3, 2, 4], 6))
 
 # Time complexity: O(n log n) due to sorting
-# Space complexity: O(1) if we don't count the space used for the output
+# Space complexity: O(n) due to creating the enumerated list
 
 # Note: This can also be solved in O(n) time using a hash map to store the indices of the numbers.

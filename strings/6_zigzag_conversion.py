@@ -23,7 +23,7 @@ def convert(s: str, numRows: int) -> str:
 print(convert("helloworld", 4))
 
 
-# Time complexity: O(n)
+# Time complexity: O(n^2) in Python due to string concatenation per row
 # Space complexity: O(n)
 
 # Made me lose my mind

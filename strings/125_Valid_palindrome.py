@@ -11,7 +11,7 @@ def isPalindrome(s: str) -> bool:
 
 print(isPalindrome("0P"))
 
-# Time complexity: O(n)
+# Time complexity: O(n^2) in Python due to string concatenation
 # Space complexity: O(n)
 
 # Seems like two-pointer approach is better in terms of space complexity, let me try that toooooo...
